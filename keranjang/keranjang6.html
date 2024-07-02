@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Keranjang</title>
+</head>
+<body>
+    <div class="halaman-detail">
+        <div class="icon-back keranjang">
+            <!-- <a href="shop.html">Kembali</a> -->
+            
+            <a href="../produk6.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="currentColor" stroke-width="2" class="ai ai-CircleChevronLeftFill"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1zm2.207 7.707a1 1 0 0 0-1.414-1.414l-4 4a1 1 0 0 0 0 1.414l4 4a1 1 0 0 0 1.414-1.414L10.914 12l3.293-3.293z"/></svg>
+            </a>
+        </div>
+        <div class="display-flex">
+            <div class="co-kiri">
+                <h3>Beli langsung</h3>
+                <div class="pengingat">
+                    <img src="../images/kartu-debit-01.png" alt="kartu debit">
+                    <p>ini halaman terakhir dari proses belanjamu. Pastikan barang sudah benar, ya :)</p>
+                </div>
+                <h3>Barang yang dibeli</h3>
+
+                <!-- STRUKTUR BARANG YANG DIBELI -->
+                
+                <h3 class="produk-kota">SKIN BRIGHTENING EXFOLIATOR</h3>
+                <p class="produk-kota">Kota Semarang Barat</p> <br>
+                <div class="produk-keterangan">
+                    <img class="imgproduk" src="../images/produk6.png" alt="SKIN BRIGHTENING EXFOLIATOR">
+                    <div>
+                        <p class="keterangan">
+                            SKIN BRIGHTENING EXFOLIATOR <br>
+                            Keterangan <br>
+                            <b>Rp <span id="unitPrice">280000</span></b>
+                        </p>
+                        <div class="produk-keterangan">
+                            <p class="keterangan set-pd color-blue">
+                                Jumlah produk
+                            </p>
+                            <p class="keterangan set-pd">
+                                |
+                            </p>
+                            <div class=" produk-keterangan border">
+                                <p class="keterangan set-pd-jmhprdk" id="decreaseButton">
+                                    -
+                                </p>
+                                <p class="keterangan set-pd-jmhprdk" id="quantity">
+                                    1
+                                </p>
+                                <p class="keterangan set-pd-jmhprdk" id="increaseButton">
+                                    +
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+
+
+                <!-- STRUKTUR TAMBAH PRODUK BARU UNTUK PEMBELIAN -->
+                <h3 class="produk-kota">Rusak selama dipakai? Bisa ganti rugi!</h3>
+                <div class="produk-keterangan">
+                    <p class="keterangan">Proses claim mudah dan instan, berlaku 3 bulan <span class="color-blue set-pd"><b>Pelajari</b></span></p>
+                    <!-- <p class="keterangan"><b>Rp 78.000</b> per barang</p> -->
+                </div>
+            
+                <div class="pembatas"></div>
+                <h3>Pengiriman dan Pembayaran</h3>
+                <div class="halaman-pengiriman">
+                    <div class="alamat">
+                        <div>
+                            <p><span>Utama</span><b> Kos -</b> Alex (081216262867)</p>
+                            <p class="alamat-keterangan">Jl. Arjuna No.79, Pendrikan Kidul, Kec. Semarang Tengah, Kota Semarang</p>
+                        </div>
+                        <div class="icons">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAMhJREFUWEft1VEKwjAQhOHtTbyKR/GkepN6FBloQIQysfMLRTYvfdg2/TJNN0udbCwn81SD3BfphDohl4Cr/90eumwrfrqVz9aThIRZq0qY63adfe/ufQlImPeEEFQCEuZOoxKQYsdRKQhHESAURYEwFAlCUL8AqR2MoR51q6rHbIMiQaNRHsboQQqEYCgQhiFAKCYF4ZgU9Hm4fvU37f11yaYe55jmRjBpQqMRCjbdZ1w/ShJycx+qN8jF1gl1Qi4BV+895BJ6AeknMSXn2f4kAAAAAElFTkSuQmCC"/>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="jasa-pengiriman">
+                        <div class="set-pengiriman">
+                            <h4>Pilih Pengiriman</h4>
+                            <p class="pengiriman">Reguler(2-4 hari)</p>
+                        </div>
+                        <div class="kurir">
+                            <h4>Pilih Kurir</h4>
+                            <div class="jenis-kurir">
+                                <p>J&T</p>
+                                <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAJ5JREFUSEvtk9sNgCAMRS+b6CY6ipPoJuokruIoehNICKFQTEj8qD++6Dn0Njh0vlxnPkxQTdgi+n9EK4ATwC1sdQAwATikVkpDJnzz8DkjIXz3gkWSlAQEXG8h7+wglsRw/hu/dMCanITfw86LcC7UnINUQihzr8K1grQTvqvgLYJYwmcx83QWmojimjDw6gELC1oFarAJ1FHZDKpRPbjcGRnmtrrsAAAAAElFTkSuQmCC"/></span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="metode-pembayaran">
+                        <div class="jenis-pembayaran">
+                            <img class="img-indomaret" src="../images/images-removebg-preview.png" alt="Indomaret">
+                        </div>
+                        <p><b>Indomaret / Alfamart</b></p>
+                        <div class="icons">
+                            <img class="icons" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAMhJREFUWEft1VEKwjAQhOHtTbyKR/GkepN6FBloQIQysfMLRTYvfdg2/TJNN0udbCwn81SD3BfphDohl4Cr/90eumwrfrqVz9aThIRZq0qY63adfe/ufQlImPeEEFQCEuZOoxKQYsdRKQhHESAURYEwFAlCUL8AqR2MoR51q6rHbIMiQaNRHsboQQqEYCgQhiFAKCYF4ZgU9Hm4fvU37f11yaYe55jmRjBpQqMRCjbdZ1w/ShJycx+qN8jF1gl1Qi4BV+895BJ6AeknMSXn2f4kAAAAAElFTkSuQmCC"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- bagian kanan -->
+            <div class="co-kanan">
+                <div class="isi-co-kanan">
+                    <div class="kanan-margin">
+                        <div class="promo">
+                            <p>Makin hemat pakai promo <span>&#10095;</span></p>
+                        </div>
+                        <h5>Ringkasan belanja</h5>
+                        <h5>Total belanja</h5>
+                        <div class="rincian">
+                            <div class="rincian-kiri">
+                                <!-- kiri -->
+                                <p>Total Harga</p>
+                                <p>Total Ongkos Kirim</p>
+                                <p>Asuransi Pengiriman</p>
+                            </div>
+                            <div class="rincian-kanan">
+                                <!-- kanan -->
+                                 <p>Rp <span id="totalPrice">100000</span></p>
+                                 <p>Rp 21.000</p>
+                                 <p>Rp 0</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="kanan-margin">
+                        <h5>Biaya Transaksi</h5>
+                        <div class="rincian">
+                            <div class="rincian-kiri">
+                                <!-- kiri -->
+                                <p>Biaya Jasa Aplikasi</p>
+                                <p>Biaya Layanan</p>
+                            </div>
+                            <div class="rincian-kanan">
+                                <!-- kanan -->
+                                 <p>Rp 1.000</p>
+                                 <p>Rp 2.500</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="kanan-margin">
+                        <div class="rincian">
+                            <div class="rincian-kiri">
+                                <h5>Total Tagihan</h5>
+                            </div>
+                            <div class="rincian-kanan">
+                                <h5>Rp <span id="allTotal">102500</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="bayar">
+                        <a href="transaksisukses.html">Bayar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../js/keranjang.js"></script>
+</body>
+</html>

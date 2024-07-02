@@ -1,0 +1,18 @@
+.halaman-detail {
+  background-color: #109dbd;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.halaman-detail .x {
+  margin-bottom: 40px;
+}
+
+.isi-produk {
+  display: flex;
+}
+
+.checked {
+  color: blue;
+}
