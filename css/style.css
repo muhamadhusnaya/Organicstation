@@ -6,6 +6,33 @@ body {
   background-color: #ffffff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+#home {
+  scroll-margin-top: 210px;
+}
+
+#shop {
+  scroll-margin-top: 70px;
+}
+
+#why {
+  margin-top: 20px;
+  scroll-margin-top: 70px;
+}
+
+#testimonial {
+  margin-top: -80px;
+  scroll-margin-top: 70px;
+}
+
+#contact {
+  margin-bottom: 100px;
+  scroll-margin-top: 170px;
+}
+
 .layout_padding {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -48,7 +75,7 @@ body {
 }
 
 .heading_container h2 span {
-  color: #08282D;
+  color: #08282d;
 }
 
 .heading_container.heading_center {
@@ -69,12 +96,12 @@ body {
 
 #navbarSupportedContent {
   width: 100%;
-  background-color: #E9EEF2;
+  background-color: #e9eef2;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
   padding: 10px 0;
-  border-radius: 15px 15px 0 0;
+  border-radius: 0 0 0 0;
 }
 
 #navbarSupportedContent.innerpage_navbar {
@@ -148,6 +175,7 @@ a:focus {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  background-color: #ffffff;
 }
 
 .custom_nav-container .navbar-toggler {
@@ -240,7 +268,9 @@ a:focus {
   background-color: #000000;
   background-color: #213e42;
   padding: 25px;
-  border-radius: 0 0 15px 15px;
+  border-radius: 15px 15px 15px 15px;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 .slider_section .row {
@@ -277,9 +307,9 @@ a:focus {
 .slider_section .detail-box a {
   display: inline-block;
   padding: 10px 40px;
-  background-color: #08282D;
+  background-color: #08282d;
   color: #ffffff;
-  border: 1px solid #08282D;
+  border: 1px solid #08282d;
   border-radius: 5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -369,7 +399,7 @@ a:focus {
 }
 
 .shop_section .box .detail-box h6 span {
-  color: #08282D;
+  color: #08282d;
 }
 
 .shop_section .box .new {
@@ -425,7 +455,7 @@ a:focus {
 
 .saving_section .box {
   padding-top: 45px;
-  background-color: #78A6c7;
+  background-color: #78a6c7;
   color: #ffffff;
   border-radius: 15px;
 }
@@ -703,7 +733,7 @@ a:focus {
 
 .client_section .box .client_info .client_name h5 {
   font-weight: 600;
-  color: #213E42;
+  color: #213e42;
 }
 
 .client_section .box .client_info .client_name h6 {
@@ -875,7 +905,11 @@ a:focus {
 }
 
 /* kembali */
-.halaman-detail .x a, .x a:visited, .x a:hover, .x a:focus, .x a:hover{
+.halaman-detail .x a,
+.x a:visited,
+.x a:hover,
+.x a:focus,
+.x a:hover {
   text-decoration: none;
 }
 
@@ -932,7 +966,7 @@ a:focus {
 }
 
 .keranjang button {
-  background-color: #08282D;
+  background-color: #08282d;
   border-color: #08282d;
   color: white;
   transition: 0.5s;
@@ -960,7 +994,8 @@ a:focus {
   margin-left: 60px;
 }
 
-.kanan h1, .kanan h2 {
+.kanan h1,
+.kanan h2 {
   margin: 0;
   padding: 0;
 }
@@ -968,7 +1003,7 @@ a:focus {
 .kanan h4 {
   margin-bottom: 0;
 }
-.kanan .rating p{
+.kanan .rating p {
   padding: 0px 0px 0px 0px;
 }
 /* CSS RETING */
@@ -976,9 +1011,9 @@ a:focus {
   color: orange;
 }
 /* ClOSE RETING */
-.kanan .harga{
+.kanan .harga {
   font-size: 28px;
-  margin: 0 ;
+  margin: 0;
   padding-left: 20px;
   color: #3e3f58;
   font-weight: 800;
@@ -993,7 +1028,7 @@ a:focus {
   display: flex;
   height: 55px;
   width: 752px;
-  background-color: #E9EEF2;
+  background-color: #e9eef2;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -1025,7 +1060,7 @@ a:focus {
   display: flex;
 }
 
-.produk-keterangan .set-keterangan{
+.produk-keterangan .set-keterangan {
   flex-direction: column;
   height: 0;
 }
@@ -1034,22 +1069,22 @@ a:focus {
   margin-bottom: 0;
   /* padding-left: 10px; */
 }
-.keterangan span{
+.keterangan span {
   padding-right: 120px;
 }
 .set-pd {
   padding-top: 10px;
   padding-right: 20px;
 }
-.set-pd-jmhprdk{
+.set-pd-jmhprdk {
   padding-top: 5px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 5px;
   cursor: pointer;
 }
-.color-blue{
-  color: #78A6c7;
+.color-blue {
+  color: #78a6c7;
 }
 .border {
   border-style: solid;
@@ -1068,10 +1103,10 @@ a:focus {
   margin-top: 20px;
   height: 7px;
   width: 752px;
-  background-color: #E9EEF2;
+  background-color: #e9eef2;
 }
 
-.halaman-pengiriman{
+.halaman-pengiriman {
   width: 712px;
   height: 257px;
   border-style: solid;
@@ -1088,10 +1123,10 @@ a:focus {
   display: flex;
   margin-left: 40px;
 }
-.halaman-pengiriman .alamat p{
+.halaman-pengiriman .alamat p {
   margin-bottom: 0;
 }
-.halaman-pengiriman .alamat p span{
+.halaman-pengiriman .alamat p span {
   color: white;
   background-color: #515151;
   padding: 3px 8px 3px 8px;
@@ -1119,9 +1154,8 @@ a:focus {
 .jasa-pengiriman .set-pengiriman {
   margin-top: 0px;
   margin-bottom: 0;
-  
 }
-.jasa-pengiriman .set-pengiriman h4{
+.jasa-pengiriman .set-pengiriman h4 {
   margin-top: 0;
   margin-bottom: 5px;
 }
@@ -1182,15 +1216,13 @@ a:focus {
   padding-left: 155px;
 }
 
-
-
 /* kanan */
 .co-kanan {
   width: 100%;
 }
 .isi-co-kanan {
   float: right;
-  width:80%;
+  width: 80%;
   margin-top: 65px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.421) 1px 2px 5px 1px;
@@ -1211,7 +1243,7 @@ a:focus {
   margin: 0;
 }
 
-.kanan-margin h5{
+.kanan-margin h5 {
   margin: 10px 0;
 }
 
@@ -1255,7 +1287,7 @@ a:focus {
 
 .bayar a {
   color: white;
-  background-color: #08282D;
+  background-color: #08282d;
   font-size: 16px;
   padding: 10px 70px;
   border-radius: 15px;
@@ -1291,22 +1323,22 @@ a:focus {
   justify-content: center;
   height: 120px;
   width: 120px;
-  background-color: #4AAE50;
+  background-color: #4aae50;
   border-radius: 50%;
 }
 
 .ceklis p {
   margin: 0;
-  font-size:100px;
+  font-size: 100px;
   color: white;
 }
 
 .selesai {
   float: right;
   margin-right: 5%;
-  background-color: #08282D;
+  background-color: #08282d;
   width: 90px;
-  border: 3px solid #658DA6;
+  border: 3px solid #658da6;
   border-radius: 20px;
 }
 
@@ -1317,18 +1349,16 @@ a:focus {
   line-height: 10%;
 }
 
-.icon-back{
+.icon-back {
   margin-bottom: 15px;
   margin-top: -25px;
-  
 }
 
 .icon-back svg {
-  color:#08282D;
+  color: #08282d;
 }
 
-.keranjang{
+.keranjang {
   margin-bottom: -5px;
   margin-top: -30px;
-  
 }
